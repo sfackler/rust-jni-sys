@@ -15,6 +15,7 @@ travis-ci = { repository = "sfackler/rust-jni-sys" }
 appveyor = { repository = "sfackler/rust-jni-sys" }
 
 [dependencies]
+libc = { version = "0.2", default-features = false }
 
 [workspace]
 members = ["systest"]
